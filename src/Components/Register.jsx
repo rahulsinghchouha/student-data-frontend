@@ -48,6 +48,8 @@ const navigate = useNavigate();
             }
         }
         catch (error) {
+            toast("OTP not Send please try again");
+            setOTPSend(true);
             console.log("error to Login the user", error);
         }
 

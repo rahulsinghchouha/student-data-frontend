@@ -31,6 +31,8 @@ function ForgotPassword() {
         }
         catch (error) {
             console.log("error to Login the user", error);
+             toast("OTP not Send please try again");
+            setOTPSend(true);
         }
 
     }

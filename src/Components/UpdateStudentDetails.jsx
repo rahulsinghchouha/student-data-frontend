@@ -99,7 +99,6 @@ const UpdateStudentDetails = () => {
                                         <input type="text" value={values?.name} onChange={handleChange} name="name" id="name" autocomplete="name" class={`  ${errors?.name ? "border-b-[1px] border-solid border-red-500" : ""} block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6 `} />
                                         {errors?.name && <span className="text-red-600 inline-block">{errors.name} </span>}
                                     </div>
-
                                 </div>
                                 {/* Email */}
                                 <div>
@@ -108,7 +107,6 @@ const UpdateStudentDetails = () => {
                                         <input type="email" value={values?.email} onChange={handleChange} name="email" id="email" autocomplete="email" class={`  ${errors?.email ? "border-b-[1px] border-solid border-red-500" : ""} block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6 `} />
                                         {errors?.email && <span className="text-red-600 inline-block">{errors.email} </span>}
                                     </div>
-
                                 </div>
 
 
@@ -120,7 +118,6 @@ const UpdateStudentDetails = () => {
                                         <input type="text" value={values?.stream} name="stream" id="stream" onChange={handleChange} autocomplete="stream" class={`  ${errors?.stream ? "border-b-[1px] border-solid border-red-500" : ""}  block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6 `} />
                                         {errors?.stream && <span className="text-red-600 inline-block">{errors.stream}</span>}
                                     </div>
-
                                 </div>
 
                                 {/* Phone No. */}
