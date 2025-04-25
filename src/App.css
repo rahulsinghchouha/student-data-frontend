@@ -126,4 +126,7 @@
   background-color: transparent !important;
   border-color: transparent;
 }
-
+.ReactCrop {
+  max-width: 50% !important;
+  max-height: 50% !important;
+}

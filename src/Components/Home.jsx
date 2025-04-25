@@ -13,6 +13,9 @@ const Home = () => {
                     <Link to="/user-details" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-6 rounded">
                         User
                     </Link>
+                    <Link to="/step-form" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-6 rounded">
+                       Step Form
+                    </Link>
                 </div>
             </div>
         </div>

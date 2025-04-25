@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -13,6 +10,12 @@ import AddStudent from './Components/AddStudent';
 import UpdateStudentDetails from './Components/UpdateStudentDetails';
 import StudentDetails from './Components/studentDetails';
 import Home from './Components/Home';
+import StepForm from './Components/stepForm';
+import StepByStepUserData from './Components/StepByStepUserData';
+
+
+
+import ImageCropFormik from './Components/CropImage';
 
 
 function App() {
@@ -30,7 +33,14 @@ function App() {
             <Route path="/add-student" element={<AddStudent />} />
             <Route path="/update-student-details" element={<UpdateStudentDetails />} />
             <Route path="/student-details" element={<StudentDetails />} />
+            <Route path="/step-form" element={<StepForm />} />
+            <Route path="/step-by-data" element={<StepByStepUserData />} />
             <Route path="/home" element={<Home />} />
+
+
+            <Route path="/image-crop" element={<ImageCropFormik />} />
+
+
           </Routes>
       </Router>
     
